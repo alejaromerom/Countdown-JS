@@ -9,7 +9,7 @@ function myTimer() {
     //Muestra el año actual
     const nextYear = now.getFullYear() + 1;
     //Se crea la constante la cual representa el formato hasta la fecha de finalizacion de año
-    const endOfYear = new Date(nextYear, 0, 0, 0, 0, 0);
+    const endOfYear = new Date(nextYear, 0, 1, 0, 0, 0);
     //represent la diferencia de tiempo entre el ahora y el fin de año haciendo una operación de resta para saber cuandos días faltan
     const timeDifference = endOfYear - now;
     //math.floor redondea hacia abajo, solo considera los valores enteros
